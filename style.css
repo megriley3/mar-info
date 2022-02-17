@@ -1,0 +1,152 @@
+*{
+  box-sizing:border-box;
+}
+
+header {
+  margin-bottom: 20px;
+
+}
+
+
+header>div>img{
+  /*make the image fit the size of the page on any device or tab size*/
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/*make the header text appear over the image*/
+header>div{
+  position: relative;
+}
+
+.halfway-down{
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 30%;
+}
+
+nav, h1, h2, nav a { /*make all text in header white*/
+  color: #ffffff;
+  text-decoration: none;
+}
+
+h1{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 110px;
+  padding: 0;
+  margin: 0;
+}
+
+h2{
+  font-family: 'century gothic', sans-serif;
+  font-size: 25px;
+  /*have display directly below name*/
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+nav{
+  text-align: right;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 35px;
+  /*make nav text appear above the header image*/
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+ nav a:hover {
+   color: #B0C4DE;
+ }
+
+body{
+  background-color: #85B5EB;
+}
+
+
+main{
+  margin-top: 30px;
+  text-align: center;
+}
+
+main>div {
+  /* make the text aligned on both sides*/
+  padding: 0px 120px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #4B4E34;
+}
+
+main>article{
+  background-color: #323B47;
+  color: #878682; 
+}
+
+.titles {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 75px;
+      }
+img {
+        max-width: 100%;
+        height: auto;
+      }
+.left-side {
+        flex-basis: 40%;
+        padding-left: 35 px;
+      }
+.half-across {
+        font-size: 20px;
+        padding-left: 40px;
+      }
+
+h3{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+  letter-spacing: 5px;
+  font-size: 30px;
+  
+}
+
+ul, p, ol, ol a, footer{
+  font-family: 'century gothic', sans-serif;
+  font-size: 20px;
+}
+
+/*make the hr not show up*/
+hr{ 
+  visibility: hidden;
+}
+
+ol {
+  text-align: left;
+  padding-left: 50%;
+  padding-bottom: 30px;
+}
+
+ol a{
+  color: #878682;
+}
+
+/*ol a:visited{
+  color:#4B4E34;
+}*/
+
+ol a:hover{
+  color:#B0C4DE
+}
+
+ol a:active{
+  color: aquamarine;
+}
+
+footer a, footer p{
+  margin-left: 35px;
+  color: #4B4E34;
+}
+
+footer a:hover{
+  color: #B0C4DE;
+}
