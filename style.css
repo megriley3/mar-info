@@ -4,9 +4,8 @@
 
 header {
   margin-bottom: 20px;
-
+  background-color: #000000;
 }
-
 
 header>div>img{
   /*make the image fit the size of the page on any device or tab size*/
@@ -62,7 +61,7 @@ nav{
  }
 
 body{
-  background-color: #85B5EB;
+  background-color: #B0E0E6;
 }
 
 
@@ -76,12 +75,12 @@ main>div {
   padding: 0px 120px;
   font-size: 20px;
   font-weight: 600;
-  color: #4B4E34;
+  color: #323B47;
 }
 
 main>article{
   background-color: #323B47;
-  color: #878682; 
+  color: #B0E0E6; 
 }
 
 .titles {
@@ -106,7 +105,7 @@ img {
 h3{
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
   letter-spacing: 5px;
-  font-size: 30px;
+  font-size: 45px;
   
 }
 
@@ -126,13 +125,13 @@ ol {
   padding-bottom: 30px;
 }
 
-ol a{
-  color: #878682;
+ol a:link{
+  color: #B0E0E6;
 }
 
-/*ol a:visited{
-  color:#4B4E34;
-}*/
+ol a:visited{
+  color:#6495ED;
+}
 
 ol a:hover{
   color:#B0C4DE
@@ -144,7 +143,7 @@ ol a:active{
 
 footer a, footer p{
   margin-left: 35px;
-  color: #4B4E34;
+  color: #323B47;
 }
 
 footer a:hover{
